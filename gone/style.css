@@ -1,0 +1,690 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+body {
+  background-color: #EDE3E9 ;  
+}
+
+html {
+  scroll-behavior: smooth ;
+}
+
+header {
+  transform: translateY(-100px) ;
+}
+
+#logo {
+    color: #242038 ;
+    text-decoration: underline ;
+    transition: all 0.4s ease ;
+    font-family: 'Poppins', sans-serif;  
+    font-weight: 600 ;
+}
+
+  #logo:hover{
+    color: white ;
+  }
+  .nav-header {
+    min-height: 10vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black ;
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0rem;
+    z-index: 2;
+    position: relative;
+  }
+  .line1,
+  .line2 {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: #242038 ;
+    pointer-events: none;
+  }
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(218, 102, 59) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+    clip-path: circle(50px at 100% -10%);
+    -webkit-clip-path: circle(50px at 100% -10%);
+  }
+  .burger {
+    cursor: pointer;
+  }
+  .nav-links {
+    font-size: 15rem;
+    flex-basis: 30rem;
+    background-color: rgb(218, 102, 59) ;
+  }
+  .nav-links h3 {
+    padding: 3rem 0rem;
+    font-size: 3rem ;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer ;
+  }
+  .nav-links a {
+    color: black ;
+    text-decoration: none ;
+  }
+  .contact {
+    flex-basis: 30rem;
+  }
+  .contact h2 {
+    font-size: 3rem;
+    padding: 2rem 0rem;
+    font-family: 'Abril Fatface', cursive;
+    color: black ;
+  }
+  .contact p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: black; 
+  }
+
+
+
+  .sekcija {
+    background-color: #533B4D ;
+    width: 90% ;
+    height: 58rem ;
+    margin: 10px auto ;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+
+  .sekcija h1 {
+    color: rgb(230, 223, 226) ;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px ;
+    text-align: center ;
+    font-size: 3rem ;
+    margin: auto ;
+    font-weight: 600 ;
+    padding-top: 100px ;
+    cursor:  pointer ;
+  }
+
+  .sekcija h1 .how {
+    color: #f0f0e6 ;
+    transition: all 0.4s ease ;
+    cursor: pointer ;
+  }
+
+  .sekcija h1 .how:hover {
+    color: #1B9AAA;
+  }
+
+  .sekcija h1 .go {
+    color: #F9F9ED ;
+    text-decoration: underline ;
+    transition: all 0.5s ease ;
+    cursor:  pointer ;
+  }
+
+  .sekcija h1 .go a{
+    color: #B5BD89 ;  
+    transition: all 0.5s ease ;
+  }
+
+  .sekcija h1 .go a:hover {
+    color: #F7B32B;  
+  }
+
+  .sekcija h1 .go:hover  {
+    color: #C3BEF7;
+  }
+
+.sekcija svg {
+  padding-bottom: -130px ;
+  position: relative ;
+}
+
+.sekcija .ljebomat {
+  margin-top: -4px ;
+  border-radius: 0 0 195px 125px ;
+}
+
+
+
+
+
+.t-swipe1 {
+  background: rgb(255, 139, 93);
+}
+
+#so {
+  margin-top: 25rem ;
+}
+
+#so .deo {
+  margin-left: 20rem ;
+}
+
+#so h4{
+  color: gray ;
+  font-family: 'Poppins', sans-serif ;
+  font-weight: 400 ;
+}
+
+#so h4::selection {
+  color: white ;
+  background-color: #582f48 ;
+}
+
+#so h1{
+  color: #242038 ;
+  font-family: 'Poppins', sans-serif ;
+  font-weight: 900 ;
+  font-size: 3rem; 
+}
+
+#so h1::selection {
+  background-color: #422236 ;
+  color: white ;
+}
+
+#so p {
+  margin-top: 3rem ;
+  color: black ;
+  font-family: 'Poppins', sans-serif ;
+  width: 40% ;
+}
+
+#so p::selection {
+  background-color: #582f48 ;
+  color: white ;
+}
+
+#so p span::selection {
+  background-color: #582f48 ;
+  color: white ;
+}
+
+#so p span {
+  font-weight: 600 ;
+  text-decoration: underline ;
+}
+
+.slike img {
+  border: 5px solid #242038 ;
+  height: 11% ;
+  width: 11% ;
+  border-radius: 50% ;
+  float: right ;
+  margin-top: -26rem ;
+  margin-right: 15rem ;
+  margin-bottom: 10rem ;
+  pointer-events: none ;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}   
+
+.slike .pinkic {
+  width: 20% ;
+}
+
+.planes {
+  margin-top: 15rem ;
+}
+
+.planes .avion {
+  display: flex ;
+  justify-content: center ;
+}
+
+.planes .avion img {
+  width: 25% ;
+  color: #B5BD89 ;
+}
+
+.planes .but {
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+}
+
+.planes .but h1{
+  margin-top: 5rem ;
+  font-family: 'Poppins', sans-serif;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  font-weight: 600 ;
+  text-transform: lowercase ;
+  color: white;
+  background-color: #EC9192;
+  padding: 1.5rem ;
+  width: 25% ;
+  border-radius: 15px 50px;
+  transition: all 0.5s ease ;
+  cursor: pointer ;
+}
+
+.planes .but a {
+  color: white ;
+  text-decoration: none ;
+}
+
+.planes .but h1:hover  {
+  margin-top: 5rem ;
+  font-family: 'Poppins', sans-serif;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  font-weight: 600 ;
+  text-transform: lowercase ;
+  color: white;
+  background-color: #c2797a;
+  padding: 1.5rem ;
+  width: 25% ;
+  border-radius: 15px 50px;
+}
+
+.planes .talas {
+  margin-bottom: -5px ;
+}
+
+@media screen and (max-width: 1500px) {
+  .hero-img {
+    height: 50vh;
+  }
+  .fashion-text h1 {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+  }
+  .fashion-text p {
+    font-size: 1.2rem;
+  }
+  .fashion-img img {
+    height: 50vh;
+    object-position: top;
+  }
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 47rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+  #so .deo {
+    margin-left: 12rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sekcija .ljebomat {
+    margin-top: -5px;
+    border-radius: 0 0 195px 125px;
+  }
+
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 34rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+  }
+  .slide {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-desc {
+    padding: 0;
+  }
+  .hero-img {
+    padding-top: 4rem;
+  }
+  .hero-desc h2 {
+    font-size: 1.6rem;
+    padding: 1rem 0rem;
+  }
+  .hero-desc p {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .explore {
+    width: 60%;
+    margin: auto;
+  }
+  .detail-slide {
+    width: 100%;
+    text-align: center;
+  }
+  .fashion-text p {
+    margin-bottom: 5rem;
+    padding: 0;
+  }
+  .fastion-text h1 {
+    margin: 2rem 0rem;
+  }
+  .fashion-nr {
+    font-size: 8rem;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .nav-links {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .contact h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .contact p {
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 42rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 40rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+  #so .deo {
+    margin-left: 10rem;
+  }
+  .slike .pinkic {
+    width: 25%;
+  }
+  .slike img {
+    border: 5px solid #242038;
+    height: 11%;
+    border-radius: 50%;
+    float: right;
+    margin-top: -27rem;
+    margin-right: 6rem;
+    margin-bottom: 10rem;
+    pointer-events: none;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 34rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 32rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+  #so {
+    margin-top: 20rem;
+  }
+  #so .deo {
+    margin-left: 6rem;
+  }
+  .slike .pinkic {
+    width: 30%;
+  }
+  .slike img {
+    border: 5px solid #242038;
+    height: 11%;
+    border-radius: 50%;
+    float: right;
+    margin-top: -30rem;
+    margin-right: 3rem;
+    margin-bottom: 10rem;
+    pointer-events: none;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 30rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+  .planes .but h1 {
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: white;
+    background-color: #EC9192;
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 15px 50px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slike .pinkic {
+    display: none ;
+  }
+  #so .deo {
+    margin-left: 10rem;
+  }
+  #so p {
+    margin-top: 3rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+  }
+  .planes .but h1 {
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: white;
+    background-color: #EC9192;
+    padding: 1.5rem;
+    width: 50%;
+    border-radius: 15px 50px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 28rem;
+    margin: 10px auto;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+  #so .deo {
+    margin-left: 7rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #so .deo {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 28rem;
+    margin: 10px auto;
+    border-radius: 35px 35px 77px 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #so {
+    margin-top: 15rem;
+  }
+  #so .deo {
+    margin-left: 3rem;
+  }
+  #so p {
+    margin-top: 3rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+  }
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 27rem;
+    margin: 10px auto;
+    border-radius: 35px 35px 60px 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .planes .but h1 {
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: white;
+    background-color: #EC9192;
+    padding: 1.5rem;
+    width: 70%;
+    border-radius: 15px 50px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  .nav-links {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #so .deo {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 90%;
+    height: 26.5rem;
+    margin: 10px auto;
+    border-radius: 35px 35px 60px 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .sekcija {
+    background-color: #533B4D;
+    width: 95%;
+    height: 26.5rem;
+    margin: 10px auto;
+    border-radius: 35px 35px 60px 35px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  }
+}
+
+
+
+
+
+
+
+
+
+ 
+
